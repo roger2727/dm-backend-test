@@ -23,12 +23,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roger2727/dinner-mate-backend.git"
+    "url": "git+https://github.com/roger2727/dm-backend-test"
   },
   "bugs": {
-    "url": "https://github.com/roger2727/dinner-mate-backend/issues"
+    "url": "https://github.com/roger2727/dm-backend-test/issues"
   },
-  "homepage": "https://github.com/roger2727/dinner-mate-backend#readme",
+  "homepage": "https://github.com/roger2727/dm-backend-test#readme",
   "description": "",
   "devDependencies": {
     "jest": "^29.3.1",
