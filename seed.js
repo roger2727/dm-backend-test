@@ -75,7 +75,7 @@ const recipes = [
   },
   {
     image:
-      "https://res.cloudinary.com/dkpp2nfjo/image/upload/c_scale,r_30,w_300/v1674385503/cereal-898073_1920_ofhjkf.jpg",
+      "https://res.cloudinary.com/dkpp2nfjo/image/upload/v1674385503/cereal-898073_1920_ofhjkf.jpg",
     isPublic: true,
     title: "Cereal",
     ingredients: ["Favourite Cereal", "Milk", "Any toppings"],
@@ -94,7 +94,7 @@ const recipes = [
   },
   {
     image:
-      "https://res.cloudinary.com/dkpp2nfjo/image/upload/c_fill,r_30,w_300/v1674465935/ivan-torres-MQUqbmszGGM-unsplash_oxbh4t.jpg",
+      "https://res.cloudinary.com/dkpp2nfjo/image/upload/v1674465935/ivan-torres-MQUqbmszGGM-unsplash_oxbh4t.jpg",
     isPublic: true,
     title: "pizza",
     ingredients: ["beef", "sauce", "topping"],
@@ -108,7 +108,7 @@ const recipes = [
   },
   {
     image:
-      "https://res.cloudinary.com/dkpp2nfjo/image/upload/c_fill,h_187,r_30,w_300/v1674465935/natasha-bhogal-7sStoaxfJh0-unsplash_snwlzp.jpg",
+      "https://res.cloudinary.com/dkpp2nfjo/image/upload/v1674465935/natasha-bhogal-7sStoaxfJh0-unsplash_snwlzp.jpg",
     isPublic: true,
     title: "nachos",
     ingredients: ["chips", "Milk", "Any toppings"],
@@ -127,7 +127,7 @@ const recipes = [
   },
   {
     image:
-      "https://res.cloudinary.com/dkpp2nfjo/image/upload/c_fill,h_187,r_30,w_300/v1674466263/nathan-dumlao-IjovY65WQiE-unsplash_yi5j69.jpg",
+      "https://res.cloudinary.com/dkpp2nfjo/image/upload/v1674466263/nathan-dumlao-IjovY65WQiE-unsplash_yi5j69.jpg",
     isPublic: true,
     title: "toast",
     ingredients: ["Favourite Cereal", "Milk", "Any toppings"],
@@ -146,7 +146,7 @@ const recipes = [
   },
   {
     image:
-      "https://res.cloudinary.com/dkpp2nfjo/image/upload/c_scale,r_30,w_300/v1674385503/cereal-898073_1920_ofhjkf.jpg",
+      "https://res.cloudinary.com/dkpp2nfjo/image/upload/v1674385503/cereal-898073_1920_ofhjkf.jpg",
     isPublic: true,
     title: "Cereal",
     ingredients: ["Favourite Cereal", "Milk", "Any toppings"],
