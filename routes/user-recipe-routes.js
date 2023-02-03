@@ -230,4 +230,29 @@ router.delete("/delete/:recipeId", authenticateJWT, async (req, res) => {
   }
 });
 
+router.post("/favorites/:recipeId", async (req, res) => {
+  try {
+    const recipeId = req.params.recipeId;
+    const recipe = await RecipeModel.findById(recipeId);
+
+    // add the recipe to the user's favorites array
+    req.user.favorites.push(recipe);
+    await req.user.save();
+
+    res.json({ success: true, message: "Recipe added to favorites" });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// GET route to retrieve the user's favorite recipes
+router.get("/favorites", async (req, res) => {
+  try {
+    const favorites = await req.user.populate("favorites").execPopulate();
+    res.json({ favorites });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 export default router;
