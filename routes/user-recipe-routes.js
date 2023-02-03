@@ -152,9 +152,8 @@ router.post("/upload-image/:recipeId", authenticateJWT, async (req, res) => {
       }
       // Use cloudinary to upload the image
       const result = await cloudinary.uploader.upload(req.file.path, {
-        height: 182,
-        radius: 30,
-        width: 300,
+        height: 1000,
+        width: 1000,
         crop: "fill",
       });
       recipe.image = result.secure_url;
